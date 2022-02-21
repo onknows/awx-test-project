@@ -1,0 +1,7 @@
+---
+- name: app
+  hosts: app
+  become: yes
+
+  roles:
+    - { role: c2platform.core.java, tags: ["java"] }

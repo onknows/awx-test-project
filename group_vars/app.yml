@@ -1,0 +1,7 @@
+---
+java_version: openjdk-8-jdk
+#java_versions:
+#    openjdk-8-jdk:
+#      trusts:
+#        - alias: cert
+#          url: https///.
