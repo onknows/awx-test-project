@@ -13,7 +13,7 @@
             cmd: "ls {{ playbook_dir }}"
           register: cmd1
         - command:
-            cmd: "ls {{ inventory_dir }}/requirements_collections/ansible_collections"
+            cmd: "ls {{ inventory_dir }}/requirements_collections/ansible_collections/c2platform"
           register: cmd2
       delegate_to: localhost
 
