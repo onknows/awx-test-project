@@ -16,4 +16,4 @@
 
       - command:
           cmd: "tree {{ inventory_dir }}"
-    delegate: localhost
+    delegate_to: localhost
