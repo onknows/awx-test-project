@@ -5,4 +5,15 @@
 
   roles:
     - { role: c2platform.core.java, tags: ["java"] }
-    - { role: c2platform.tomcat, tags: ["tomcat"] }
+  #  - { role: c2platform.tomcat, tags: ["tomcat"] }
+
+  tasks:
+    - block:
+      - package:
+          name: tree
+      - command:
+          cmd: "tree {{ playbook_dir }}"
+
+      - command:
+          cmd: "tree {{ inventory_dir }}"
+    delegate: localhost
