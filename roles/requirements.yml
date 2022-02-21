@@ -1,0 +1,3 @@
+---
+- src: c2platform.tomcat
+  version: v0.1.0

@@ -1,8 +1,4 @@
 ---
-roles:
-  - src: c2platform.tomcat
-    version: v0.1.0
-
 collections:
   - name: c2platform.core
     version: '0.1.0'
