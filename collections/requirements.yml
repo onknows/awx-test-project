@@ -4,5 +4,5 @@ roles:
     version: v0.1.0
 
 collections:
-  - scr: c2platform.core
-    version: v0.1.0
+  - name: c2platform.core
+    version: '0.1.0'
