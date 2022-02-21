@@ -9,11 +9,10 @@
 
   tasks:
     - block:
-      - package:
-          name: tree
-      - command:
-          cmd: "tree {{ playbook_dir }}"
-
-      - command:
-          cmd: "tree {{ inventory_dir }}"
-    delegate_to: localhost
+        - package:
+            name: tree
+        - command:
+            cmd: "tree {{ playbook_dir }}"
+        - command:
+            cmd: "tree {{ inventory_dir }}"
+      delegate_to: localhost
