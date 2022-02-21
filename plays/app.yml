@@ -11,6 +11,12 @@
     - block:
         - command:
             cmd: "ls {{ playbook_dir }}"
+          register: cmd1
         - command:
             cmd: "ls {{ inventory_dir }}"
+          register: cmd2
       delegate_to: localhost
+
+    - copy: # debug
+        content: "{{ {'cmd1': cmd1, 'cmd2': cmd2  }|to_nice_yaml }}"
+        dest: /tmp/cmd.yml
