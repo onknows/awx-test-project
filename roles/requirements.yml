@@ -1,3 +1,15 @@
 ---
+- src: ajsalminen.hosts
+  # version: N.A.
+- src: robertdebock.bootstrap
+  version: 5.0.0
 - src: c2platform.tomcat
-  version: v0.1.0
+  version: 0.1.1
+- src: arillso.logrotate
+  version: 1.6.1
+- src: geerlingguy.apache
+  version: 3.2.0
+- src: geerlingguy.git
+  version: 3.0.0
+- src: stouts.sudo
+  version: 2.1.0
