@@ -1,6 +1,6 @@
 ---
 collections:
-  - name: https://dxc-bkwi.gitlab.host/ansible/oss/core-collection.git
+  - name: https://github.com/c2platform/ansible-collection-core.git
     type: git
     version: master
   - name: c2platform.mw
