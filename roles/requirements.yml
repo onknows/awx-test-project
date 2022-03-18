@@ -3,8 +3,8 @@
   # version: N.A.
 - src: robertdebock.bootstrap
   version: 5.0.0
-- src: c2platform.tomcat
-  version: 0.1.1
+#- src: c2platform.tomcat
+#  version: 0.1.1
 - src: arillso.logrotate
   version: 1.6.1
 - src: geerlingguy.apache
@@ -13,3 +13,7 @@
   version: 3.0.0
 - src: stouts.sudo
   version: 2.1.0
+- src: https://dxc-bkwi.gitlab.host/ansible/oss/ansible-role-tomcat.git
+  scm: git
+  version: master
+  name: c2platform.tomcat
