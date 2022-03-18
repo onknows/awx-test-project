@@ -1,12 +1,12 @@
 ---
 collections:
-  #- name: https://dxc-bkwi.gitlab.host/ansible/oss/core-collection.git
-  #  type: git
-  #  version: master
-  #- name: c2platform.mw
-  #  version: '0.1.0'
-  #- name: c2platform.forgerock
-  #  version: '0.1.0'
+  - name: https://dxc-bkwi.gitlab.host/ansible/oss/core-collection.git
+    type: git
+    version: master
+  - name: c2platform.mw
+    version: '0.1.0'
+  - name: c2platform.forgerock
+    version: '0.1.0'
   - name: community.mysql
     version: '2.1.0'
   - name: community.crypto
